@@ -1,0 +1,46 @@
+#This file is populated by automated script. Don't modify manually
+
+server_domain_name=
+
+#MySQL
+mysql_host=
+mysql_port=3306
+mysql_database=
+mysql_ro_user=
+mysql_ro_pwd=
+mysql_rw_user=
+mysql_rw_pwd=
+
+#Redis
+redis_host=127.0.0.1
+redis_port=6379
+redis_pwd=
+
+#MQTT
+mqtt_broker_host=localhost
+mqtt_broker_port=1883
+mqtt_client_id=client-id7
+
+#graph-database-settings
+#graph_db_type possible values arango/neo4j
+#graph_db_port(7687-neo4j OR 8529 arango DB)
+#graph_db_user neo4j OR root for arango
+
+#Primary GraphDB Properties
+graph_db_host=
+graph_db_port=
+graph_db_user=
+graph_db_pass=
+graph_db_name=
+
+#Secondary GraphDB Properties.. No need to set other secondary graphDB properties if 'secondary_db_mode_enabled' is set to FALSE/false. 
+secondary_db_mode_enabled=true
+secondary_graph_db_type=neo4j
+secondary_graph_db_host=
+secondary_graph_db_port=7687
+secondary_graph_db_user=neo4j
+secondary_graph_db_pass=
+secondary_graph_db_name=neo4j
+
+#Max allowed size limit for graph-insertion queue from subscriber. Set to '0' for no-limit check.
+graph_queue_max_allowed_size_limit=50000
