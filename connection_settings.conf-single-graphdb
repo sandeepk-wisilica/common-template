@@ -26,21 +26,11 @@ mqtt_client_id=client-id7
 #graph_db_port(7687-neo4j OR 8529 arango DB)
 #graph_db_user neo4j OR root for arango
 
-#Primary GraphDB Properties
+
+#GraphDB Properties
+graph_db_type=
 graph_db_host=
 graph_db_port=
 graph_db_user=
 graph_db_pass=
 graph_db_name=
-
-#Secondary GraphDB Properties.. No need to set other secondary graphDB properties if 'secondary_db_mode_enabled' is set to FALSE/false. 
-secondary_db_mode_enabled=true
-secondary_graph_db_type=neo4j
-secondary_graph_db_host=
-secondary_graph_db_port=7687
-secondary_graph_db_user=neo4j
-secondary_graph_db_pass=
-secondary_graph_db_name=neo4j
-
-#Max allowed size limit for graph-insertion queue from subscriber. Set to '0' for no-limit check.
-graph_queue_max_allowed_size_limit=50000
