@@ -34,7 +34,7 @@ graph_db_pass=
 graph_db_name=
 
 #Secondary GraphDB Properties.. No need to set other secondary graphDB properties if 'secondary_db_mode_enabled' is set to FALSE/false. 
-secondary_db_mode_enabled=true
+secondary_db_mode_enabled=false
 secondary_graph_db_type=neo4j
 secondary_graph_db_host=
 secondary_graph_db_port=7687
